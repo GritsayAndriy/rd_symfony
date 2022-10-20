@@ -1,4 +1,4 @@
-.idea
+/.idea
 
 ###> symfony/framework-bundle ###
 /.env.local
@@ -9,33 +9,10 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
-**/*.log
-**/*.md
-**/*.php~
-**/*.dist.php
-**/*.dist
-**/*.cache
-**/._*
-**/.dockerignore
-**/.DS_Store
-**/.git/
-**/.gitattributes
-**/.gitignore
-**/.gitmodules
-**/docker-compose.*.yaml
-**/docker-compose.*.yml
-**/docker-compose.yaml
-**/docker-compose.yml
-**/Dockerfile
-**/Thumbs.db
-.github/
-docs/
-public/bundles/
-tests/
-var/
-vendor/
-.editorconfig
-.env.*.local
-.env.local
-.env.local.php
-.env.test
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
